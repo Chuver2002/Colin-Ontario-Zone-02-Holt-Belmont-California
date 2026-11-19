@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zone 2: Holt, Belmont &amp; California — Ontario Industrial Zone Report</title>
+<meta name="description" content="Industrial zone report for Holt, Belmont &amp; California, Ontario, CA: 56 buildings (20k–125k SF), map, Inland Empire West market snapshot and recent activity.">
+<meta property="og:title" content="Zone 2: Holt, Belmont &amp; California — Ontario Industrial Zone Report">
+<meta property="og:description" content="Industrial zone report for Holt, Belmont &amp; California, Ontario, CA: 56 buildings (20k–125k SF), map, Inland Empire West market snapshot and recent activity.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3E%3Crect x=%271%27 y=%271%27 width=%2714%27 height=%2714%27 rx=%273%27 fill=%27%23e0602b%27/%3E%3C/svg%3E">
+<style>
+:root{color-scheme:light;--zc:#e0602b;--surface:#fbfaf7;--card:#fff;--ink:#121212;--ink2:#4f4e4a;--muted:#8a8984;--line:#e6e4de;--land:#f3f2ed;--road:#d3d1ca;--fwy:#a19e96}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--surface);color:var(--ink);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+header.top{border-bottom:1px solid var(--line);background:#fff}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:14px;padding-bottom:14px;flex-wrap:wrap}
+.brand{font-weight:700;font-size:14px;letter-spacing:.2px}
+.brand span{color:var(--muted);font-weight:500}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:#fff;text-decoration:none;border-radius:8px;padding:10px 16px;font-size:14px;font-weight:600;border:0}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.hero{padding:44px 0 26px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:var(--ink2);text-transform:uppercase;letter-spacing:.8px}
+.eyebrow i{width:12px;height:12px;border-radius:3px;background:var(--zc);display:inline-block}
+h1{font-size:clamp(30px,4.6vw,46px);line-height:1.1;margin:12px 0 12px;letter-spacing:-.5px}
+.lede{font-size:18px;color:var(--ink2);max-width:760px;margin:0}
+.meta{margin-top:14px;font-size:13px;color:var(--muted)}
+section{padding:26px 0}
+h2{font-size:22px;margin:0 0 14px;letter-spacing:-.2px}
+h3{font-size:15px;margin:0 0 8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px}
+.mapcard{overflow:hidden;position:relative}
+#map{display:block;width:100%;height:520px;background:var(--land);touch-action:none;cursor:grab}
+@media(max-width:700px){#map{height:420px}}
+.mapnote{display:flex;gap:18px;flex-wrap:wrap;padding:12px 16px;border-top:1px solid var(--line);font-size:13px;color:var(--ink2)}
+.mapnote span{display:inline-flex;align-items:center;gap:6px}
+.zoom{position:absolute;right:12px;top:12px;display:flex;flex-direction:column;gap:4px}
+.zoom button{width:34px;height:34px;border-radius:8px;border:1px solid var(--line);background:#fff;font-size:17px;cursor:pointer}
+.tip{position:absolute;pointer-events:none;background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px 10px;box-shadow:0 6px 18px rgba(0,0,0,.12);font-size:13px;max-width:260px;display:none;z-index:4;line-height:1.4}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+@media(max-width:820px){.grid2{grid-template-columns:1fr}.grid4{grid-template-columns:1fr 1fr}}
+.tile{padding:16px}
+.tile .v{font-size:28px;font-weight:700;letter-spacing:-.5px;font-variant-numeric:tabular-nums}
+.tile .l{font-size:13px;color:var(--ink2);margin-top:2px}
+.tile .s{font-size:12px;color:var(--muted);margin-top:6px}
+.pad{padding:18px 20px}
+.kv{display:grid;grid-template-columns:110px 1fr;gap:6px 12px;font-size:14px}
+.kv dt{color:var(--muted)}
+.kv dd{margin:0}
+.bars{margin-top:6px}
+.bar{display:grid;grid-template-columns:96px 1fr 42px;align-items:center;gap:10px;font-size:13px;margin:6px 0}
+.bar .t{height:10px;background:#efede7;border-radius:5px;overflow:hidden}
+.bar .t b{display:block;height:100%;background:var(--zc);border-radius:5px}
+.bar .n{text-align:right;color:var(--ink2);font-variant-numeric:tabular-nums}
+ul.clean{list-style:none;padding:0;margin:0}
+.act li{padding:14px 0;border-top:1px solid var(--line)}
+.act li:first-child{border-top:0;padding-top:0}
+.tag{display:inline-block;font-size:12px;font-weight:600;color:var(--ink2);background:#f1efe9;border-radius:6px;padding:2px 8px;margin-bottom:6px}
+.src{font-size:12px;color:var(--muted)}
+.src a{color:var(--muted)}
+.tips li{position:relative;padding-left:20px;margin:10px 0;font-size:15px}
+.tips li:before{content:"";position:absolute;left:0;top:9px;width:8px;height:8px;border-radius:2px;background:var(--zc)}
+.notes li{font-size:14px;color:var(--ink2);margin:8px 0}
+.cta{background:#151515;color:#fff;border-radius:16px;padding:28px;display:grid;grid-template-columns:1.3fr 1fr;gap:20px;align-items:center}
+@media(max-width:820px){.cta{grid-template-columns:1fr}}
+.cta h2{color:#fff;font-size:24px}
+.cta p{color:#cfcfcf;margin:0 0 6px}
+.cta .who{font-size:15px;line-height:1.6;color:#e9e9e9}
+.cta .who b{font-size:17px;color:#fff}
+.cta .acts{display:flex;flex-direction:column;gap:10px}
+.cta .btn{background:#fff;color:#111;justify-content:center}
+.cta .btn.ghost{background:transparent;color:#fff;border-color:#444}
+footer{padding:26px 0 40px;font-size:12px;color:var(--muted)}
+footer p{margin:6px 0}
+.roadlbl{font-size:10px;fill:#7b7972;paint-order:stroke;stroke:var(--land);stroke-width:3px;stroke-linejoin:round;pointer-events:none}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">Colin Huver <span>· Foremost Commercial Real Estate Services</span></div>
+  <a class="btn" href="#contact">Talk about this zone</a>
+</div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <div class="eyebrow"><i></i>Ontario Industrial · Zone 2 of 12</div>
+    <h1>Holt, Belmont &amp; California</h1>
+    <p class="lede">Central Ontario around Grove Ave: the Holt Blvd frontage and the Belmont, California, Mildred, Acacia and Elm grid just south of Mission, plus a small cluster north of I-10 on N Hellman Ave and E 4th St.</p>
+    <div class="meta">Zone report · Updated November 2026 · Market data through Q3 2026</div>
+  </div>
+
+  <section>
+    <div class="card mapcard">
+      <svg id="map" aria-label="Map of Zone 2"></svg>
+      <div class="zoom"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button></div>
+      <div class="tip" id="tip"></div>
+      <div class="mapnote">
+        <span><svg width="12" height="12"><circle cx="6" cy="6" r="5" fill="#e0602b"/></svg>Industrial buildings in this zone (dot size = building SF)</span>
+        <span><svg width="12" height="12"><circle cx="6" cy="6" r="4" fill="#c9c7c0"/></svg>Neighboring zones</span>
+        <span>Drag to pan · scroll or +/− to zoom · tap a dot for the address</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="grid2">
+    <div class="card pad">
+      <h2>Zone profile</h2>
+      <dl class="kv">
+        <dt>Buildings</dt><dd>56 industrial buildings, 20,000–125,000 SF</dd>
+        <dt>Total space</dt><dd>2,099,821 SF (median building 34,500 SF)</dd>
+        <dt>Boundaries</dt><dd>West: Campus Ave · East: Vineyard Ave (pocket to Hellman) · North: Holt Blvd (pocket at 4th St) · South: Elm St</dd>
+        <dt>Main streets</dt><dd>938–1261 E Belmont St; 1032–1650 E Holt Blvd; 928–1450 S Grove Ave; 921–1176 E California St; 1020–1150 S Mildred Ave; 1215–1375 E Acacia St</dd>
+      </dl>
+    </div>
+    <div class="card pad">
+      <h2>Building size mix</h2>
+      <div class="bars"><div class="bar"><span>20–40k SF</span><span class="t"><b style="width:100%"></b></span><span class="n">31</span></div><div class="bar"><span>40–60k SF</span><span class="t"><b style="width:32%"></b></span><span class="n">10</span></div><div class="bar"><span>60–80k SF</span><span class="t"><b style="width:6%"></b></span><span class="n">2</span></div><div class="bar"><span>80–125k SF</span><span class="t"><b style="width:19%"></b></span><span class="n">6</span></div><p class="src">7 building(s) without a size on file.</p></div>
+      <p class="src" style="margin-top:12px">Count of buildings in this zone by size range.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Inland Empire West market snapshot</h2>
+    <div class="grid4"><div class="card tile"><div class="v">4.8%</div><div class="l">IE West vacancy, Q3 2026</div><div class="s">Down from 5.16% in Q2 and 6.09% in Q1 · <a href="https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Inland-Empire-West-CA-Industrial.pdf" target="_blank" rel="noopener">Lee & Associates</a></div></div><div class="card tile"><div class="v">$1.03</div><div class="l">Avg. asking rent, $/SF/mo NNN</div><div class="s">$12.41/SF/yr in IE West; $12.76 a year earlier · <a href="https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Inland-Empire-West-CA-Industrial.pdf" target="_blank" rel="noopener">Lee & Associates</a></div></div><div class="card tile"><div class="v">3.9M SF</div><div class="l">12-month net absorption, IE West</div><div class="s">Up from 2.6M SF in Q2 · <a href="https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Inland-Empire-West-CA-Industrial.pdf" target="_blank" rel="noopener">Lee & Associates</a></div></div><div class="card tile"><div class="v">$246/SF</div><div class="l">Avg. sale price, IE West</div><div class="s">Down from $277/SF in Q1 2026 · <a href="https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Inland-Empire-West-CA-Industrial.pdf" target="_blank" rel="noopener">Lee & Associates</a></div></div></div>
+    <div class="card pad" style="margin-top:14px">
+      <ul class="clean notes"><li>Other trackers put IE West vacancy at 5.9% (CBRE) and 6.5% (Cushman &amp; Wakefield); each firm measures a slightly different building set, but all three show vacancy flat-to-falling in Q3. <span class="src">(<a href="https://www.cbre.com/insights/figures/inland-empire-industrial-figures-q3-2026" target=_blank rel=noopener>CBRE</a>, <a href="https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/inland-empire-marketbeats/industrial" target=_blank rel=noopener>Cushman & Wakefield</a>)</span></li><li>Across the wider Inland Empire, asking rents are down about 10% year over year, to roughly $1.01/SF/mo NNN. <span class="src">(<a href="https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/inland-empire-marketbeats/industrial" target=_blank rel=noopener>Cushman & Wakefield</a>)</span></li><li>Tenants still hold leverage through flexible lease terms and concessions, even as fundamentals improve. <span class="src">(<a href="https://kidder.com/market-reports/inland-empire-industrial-market-report" target=_blank rel=noopener>Kidder Mathews</a>)</span></li><li>5.8M SF was under construction in IE West at the end of Q3, up from 2.6M SF in Q1, so new supply is picking back up. <span class="src">(<a href="https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Inland-Empire-West-CA-Industrial.pdf" target=_blank rel=noopener>Lee & Associates</a>)</span></li></ul>
+    </div>
+  </section>
+
+  <section class="grid2">
+    <div class="card pad">
+      <h2>Recent activity in and near this zone</h2>
+      <ul class="clean act"><li><span class="tag">Lease · Q3 2026</span><div>1151 Mildred Ave, Suite B — 433,359 SF leased to Alto Systems (3PL). One of the three largest IE West leases of the quarter, on the zone&#x27;s Mildred Ave corridor.</div><div class="src">Source: <a href="https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Inland-Empire-West-CA-Industrial.pdf" target="_blank" rel="noopener">Lee &amp; Associates Q3 2026</a></div></li><li><span class="tag">New construction for lease · 2026</span><div>1050 E Holt Blvd — brand-new 45,000 SF freestanding building, 32&#x27; clear, secured yard, IP zoning.</div><div class="src">Source: <a href="https://www.crexi.com/lease/properties/1213865/california-titan-industrial-park" target="_blank" rel="noopener">Crexi listing</a></div></li><li><span class="tag">Sublease listed · Apr 2026</span><div>1650 E Holt Blvd — 39,346 SF sublease in the Ontario Airport Business Park, built 2021.</div><div class="src">Source: <a href="https://www.propertyshark.com/cre/commercial-property/us/ca/ontario/1650-e-holt-blvd/" target="_blank" rel="noopener">PropertyShark listing</a></div></li></ul>
+      <p class="src" style="margin-top:12px">From public news and public listings. Availability changes quickly. Ask for the current list.</p>
+    </div>
+    <div class="card pad">
+      <h2>Notable IE West deals, Q3 2026</h2>
+      <ul class="clean act"><li><span class="tag">Top IE West lease, Q3 2026</span><div>573,000 SF at 9333 Hermosa Ave, Rancho Cucamonga (Logistics Services, Inc.)</div><div class="src">Source: <a href="https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Inland-Empire-West-CA-Industrial.pdf" target="_blank" rel="noopener">Lee & Associates, Q3 2026 Inland Empire West Industrial Market Overview</a></div></li><li><span class="tag">Top Ontario sale, Q3 2026</span><div>612,083 SF at 2825 E Jurupa St sold for $143.9M ($235/SF)</div><div class="src">Source: <a href="https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Inland-Empire-West-CA-Industrial.pdf" target="_blank" rel="noopener">Lee & Associates, Q3 2026 Inland Empire West Industrial Market Overview</a></div></li><li><span class="tag">Largest capital move</span><div>EQT Real Estate bought a 5.2M SF Rexford industrial portfolio for $1.2B in September</div><div class="src">Source: <a href="https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Inland-Empire-West-CA-Industrial.pdf" target="_blank" rel="noopener">Lee & Associates, Q3 2026 Inland Empire West Industrial Market Overview</a></div></li></ul>
+    </div>
+  </section>
+
+  <section class="grid2">
+    <div class="card pad">
+      <h2>If you lease space here</h2>
+      <ul class="clean tips"><li>Start 12–18 months before expiration. For 20k–125k SF, the best options often trade before they hit the open market.</li><li>Rents are down about 10% from a year ago, so renewals are a negotiation, not a formality. Benchmark your current rate before your landlord sends terms.</li><li>Concessions are back: free rent, improvement allowances and flexible terms are on the table, especially in buildings that have sat vacant.</li><li>Price a relocation even if you plan to stay. A credible alternative is the strongest renewal leverage you have.</li></ul>
+    </div>
+    <div class="card pad">
+      <h2>If you own a building here</h2>
+      <ul class="clean tips"><li>Vacancy in IE West is falling (6.1% → 4.8% this year per Lee &amp; Associates), so well-located 20k–125k SF buildings are leasing again.</li><li>Sale pricing has softened to about $246/SF on average, while recent Ontario trades show strong buyers for quality and yard-heavy (IOS) sites.</li><li>Renewing a tenant early usually beats downtime plus free rent. Know your tenant&#x27;s expiration and talk 12+ months out.</li><li>New supply is picking up (5.8M SF under construction), so positioning matters: power, yard, clear height and loading set the rent.</li></ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="cta">
+      <div>
+        <h2>Questions about your building or lease in Zone 2?</h2>
+        <p>I can share current availabilities, recent rent and sale comps for your size range, and what your space is worth today. No cost, no obligation.</p>
+        <div class="who" style="margin-top:14px"><b>Colin Huver</b><br>Broker Associate · Foremost Commercial Real Estate Services<br>1614 E. Holt Blvd., Suite 100, Ontario, CA 91761<br>DRE #02196649</div>
+      </div>
+      <div class="acts">
+        <a class="btn" href="tel:+19098153281">Call (909) 815-3281</a>
+        <a class="btn ghost" href="mailto:c.huver@foremost-cre.com?subject=Zone%202%20%E2%80%94%20Holt%20Belmont%20California">Email c.huver@foremost-cre.com</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">
+  <p><b>Sources:</b> <a href="https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Inland-Empire-West-CA-Industrial.pdf" target="_blank" rel="noopener">Lee &amp; Associates, Q3 2026 Inland Empire West Industrial Market Overview</a> · <a href="https://www.cbre.com/insights/figures/inland-empire-industrial-figures-q3-2026" target="_blank" rel="noopener">CBRE, Inland Empire Industrial Figures Q3 2026</a> · <a href="https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/inland-empire-marketbeats/industrial" target="_blank" rel="noopener">Cushman &amp; Wakefield, Inland Empire Industrial MarketBeat Q3 2026</a> · <a href="https://kidder.com/market-reports/inland-empire-industrial-market-report" target="_blank" rel="noopener">Kidder Mathews, Inland Empire Industrial Market Report Q3 2026</a></p>
+  <p>Market figures are from the cited public research reports. Activity items come from public news and listing sites; listing status can change after publication. Building locations and sizes are approximate. Information is believed reliable but not guaranteed. This is not an offer to lease or sell. Colin Huver, Foremost Commercial Real Estate Services, DRE #02196649.</p>
+</div></footer>
+
+<script type="application/json" id="d">{"zone":[{"addr":"1100 N Hellman Ave","sf":32834,"lon":-117.60214,"lat":34.07761,"x":"near 4th St"},{"addr":"1119-1143 N Hellman Ave","sf":24000,"lon":-117.60228,"lat":34.07783,"x":"near 4th St"},{"addr":"1150 N Del Rio Pl","sf":21780,"lon":-117.60357,"lat":34.07831,"x":"near 4th St"},{"addr":"1190 N Del Rio Pl","sf":24089,"lon":-117.60358,"lat":34.07887,"x":"near 4th St"},{"addr":"2041 E 4th St","sf":96803,"lon":-117.60725,"lat":34.07764,"x":"between Del Rio Pl & Vineyard Ave"},{"addr":"201 N Corona Ave","sf":22252,"lon":-117.61345,"lat":34.06445,"x":"near Holt Blvd"},{"addr":"1650 E Holt Blvd","sf":39346,"lon":-117.61808,"lat":34.06341,"x":"between Corona Ave & Grove Ave"},{"addr":"1630 E Holt Blvd","sf":44118,"lon":-117.61871,"lat":34.06341,"x":"between Corona Ave & Grove Ave"},{"addr":"1486 E Holt Blvd","sf":26000,"lon":-117.62144,"lat":34.06339,"x":"between Grove Ave & Corona Ave"},{"addr":"1400-1410 E Holt Blvd","sf":91744,"lon":-117.62272,"lat":34.06338,"x":"between Grove Ave & Corona Ave"},{"addr":"1381 E Holt Blvd","sf":0,"lon":-117.62336,"lat":34.06349,"x":"between Grove Ave & Corona Ave"},{"addr":"1366 E Holt Blvd","sf":24000,"lon":-117.62376,"lat":34.06338,"x":"between Grove Ave & Corona Ave"},{"addr":"1261 E Airport Dr","sf":59400,"lon":-117.62339,"lat":34.06192,"x":"between State St & Vineyard Ave"},{"addr":"1172 E Holt Blvd","sf":44004,"lon":-117.62985,"lat":34.06336,"x":"between Grove Ave & Bon View Ave"},{"addr":"1154 E Holt Blvd","sf":35033,"lon":-117.63073,"lat":34.06336,"x":"between Grove Ave & Bon View Ave"},{"addr":"1050 E Holt Blvd","sf":0,"lon":-117.63325,"lat":34.06335,"x":"between Bon View Ave & Grove Ave"},{"addr":"1032 E Holt Blvd","sf":44885,"lon":-117.63372,"lat":34.06335,"x":"between Bon View Ave & Grove Ave"},{"addr":"810 E Main St","sf":0,"lon":-117.63648,"lat":34.06111,"x":"near Bon View Ave"},{"addr":"887 E State St","sf":0,"lon":-117.63698,"lat":34.06015,"x":"between Bon View Ave & Campus Ave"},{"addr":"627 S Bon View Ave","sf":0,"lon":-117.63655,"lat":34.05763,"x":"between Sunkist St & California St"},{"addr":"724 S Bon View Ave","sf":34558,"lon":-117.63669,"lat":34.05662,"x":"between California St & Sunkist St"},{"addr":"921 E California St","sf":41236,"lon":-117.63611,"lat":34.05585,"x":"between Bon View Ave & Cucamonga Ave"},{"addr":"1031 E California St","sf":46092,"lon":-117.63354,"lat":34.05587,"x":"between Cucamonga Ave & Bon View Ave"},{"addr":"1095 E California St","sf":58511,"lon":-117.63209,"lat":34.05586,"x":"between Cucamonga Ave & Bon View Ave"},{"addr":"1176 E California St","sf":52445,"lon":-117.63089,"lat":34.05575,"x":"between Cucamonga Ave & Mission Blvd"},{"addr":"1120 Mission Blvd","sf":100896,"lon":-117.63122,"lat":34.05489,"x":"between Cucamonga Ave & Grove Ave"},{"addr":"928 S Grove Ave","sf":23570,"lon":-117.6287,"lat":34.05403,"x":"between Mission Blvd & Belmont St"},{"addr":"1001 S Grove Ave","sf":30032,"lon":-117.62856,"lat":34.05392,"x":"between Mission Blvd & Belmont St"},{"addr":"1011 S Grove Ave","sf":22550,"lon":-117.62856,"lat":34.05371,"x":"between Mission Blvd & Belmont St"},{"addr":"1020 Mildred St","sf":72849,"lon":-117.6247,"lat":34.05322,"x":"between Mission Blvd & Belmont St"},{"addr":"1041 S Mildred St","sf":102400,"lon":-117.62456,"lat":34.05294,"x":"between Belmont St & Mission Blvd"},{"addr":"1110 S Mildred Ave","sf":100724,"lon":-117.6247,"lat":34.05188,"x":"between Belmont St & Acacia St"},{"addr":"1150 S Mildred Ave","sf":27264,"lon":-117.6247,"lat":34.05141,"x":"between Belmont St & Acacia St"},{"addr":"1261 E Belmont St","sf":34500,"lon":-117.62563,"lat":34.05213,"x":"between Mildred Ave & Grove Ave"},{"addr":"1251 E Belmont St","sf":25657,"lon":-117.62588,"lat":34.05213,"x":"between Mildred Ave & Grove Ave"},{"addr":"1250 E Belmont St","sf":39525,"lon":-117.627,"lat":34.05195,"x":"between Grove Ave & Mildred Ave"},{"addr":"1240 E Belmont St","sf":23665,"lon":-117.62709,"lat":34.05194,"x":"between Grove Ave & Mildred Ave"},{"addr":"1230 E Belmont St","sf":28000,"lon":-117.62751,"lat":34.05191,"x":"between Grove Ave & Mildred Ave"},{"addr":"1220 E Belmont St","sf":27910,"lon":-117.62786,"lat":34.05188,"x":"between Grove Ave & Mildred Ave"},{"addr":"1181 E Belmont St","sf":21726,"lon":-117.6293,"lat":34.05188,"x":"between Grove Ave & Cucamonga Ave"},{"addr":"1163 Belmont St","sf":21413,"lon":-117.62988,"lat":34.05184,"x":"between Grove Ave & Cucamonga Ave"},{"addr":"1351 S Grove Ave","sf":22447,"lon":-117.62854,"lat":34.04909,"x":"between Acacia St & Belmont St"},{"addr":"1215 E Acacia St","sf":29240,"lon":-117.62826,"lat":34.04849,"x":"between Grove Ave & Mildred Ave"},{"addr":"1255 Acacia St","sf":30442,"lon":-117.62749,"lat":34.0485,"x":"between Grove Ave & Mildred Ave"},{"addr":"1295 E Acacia St","sf":22411,"lon":-117.62671,"lat":34.0485,"x":"between Grove Ave & Mildred Ave"},{"addr":"1375 E Acacia St","sf":28663,"lon":-117.62516,"lat":34.04852,"x":"between Mildred Ave & Grove Ave"},{"addr":"1220 E Elm St","sf":29930,"lon":-117.62826,"lat":34.04673,"x":"between Grove Ave & Baker Ave"},{"addr":"1219 E Elm St","sf":37816,"lon":-117.62828,"lat":34.04685,"x":"between Grove Ave & Baker Ave"},{"addr":"1450 S Grove Ave","sf":40000,"lon":-117.62866,"lat":34.04741,"x":"between Acacia Ct & Elm St"},{"addr":"1301 S Cucamonga","sf":0,"lon":-117.63294,"lat":34.04883,"x":"between Acacia St & Locust St"},{"addr":"1310 S Cucamonga Ave","sf":102168,"lon":-117.63309,"lat":34.05011,"x":"between Acacia St & Belmont St"},{"addr":"1010 E Belmont St","sf":61824,"lon":-117.63398,"lat":34.05147,"x":"between Cucamonga Ave & Bon View Ave"},{"addr":"948 E Belmont St","sf":32264,"lon":-117.63545,"lat":34.05144,"x":"between Bon View Ave & Cucamonga Ave"},{"addr":"938 E Belmont St","sf":38944,"lon":-117.63582,"lat":34.05144,"x":"between Bon View Ave & Cucamonga Ave"},{"addr":"635 S Taylor Ave","sf":0,"lon":-117.63892,"lat":34.05754,"x":"between Sunkist St & California St"},{"addr":"771 E Sunkist St","sf":57861,"lon":-117.63938,"lat":34.058,"x":"between Taylor Ave & Campus Ave"}],"other":[[-117.64529,34.05583],[-117.64518,34.05356],[-117.64354,34.05433],[-117.6416,34.05371],[-117.64289,34.05572],[-117.64018,34.05788],[-117.64094,34.05788],[-117.64337,34.05787],[-117.64354,34.05799],[-117.64337,34.06002],[-117.64499,34.0612],[-117.64476,34.06255],[-117.64554,34.06216],[-117.64598,34.06097],[-117.64598,34.06001],[-117.64813,34.06119],[-117.6435,34.0565],[-117.65049,34.06108],[-117.63291,34.03611],[-117.63514,34.03763],[-117.63522,34.03751],[-117.63696,34.03745],[-117.63718,34.03756],[-117.6415,34.03772],[-117.64151,34.03801],[-117.64151,34.03859],[-117.64151,34.03887],[-117.63717,34.03946],[-117.63666,34.03978],[-117.63663,34.03989],[-117.63665,34.04112],[-117.63805,34.04122],[-117.6382,34.04122],[-117.6385,34.04122],[-117.63964,34.04109],[-117.64015,34.04121],[-117.64031,34.0412],[-117.64153,34.0412],[-117.64154,34.04246],[-117.64157,34.04488],[-117.64158,34.04554],[-117.64159,34.04626],[-117.64159,34.04715],[-117.64159,34.04782],[-117.64173,34.04836],[-117.6416,34.0494],[-117.63724,34.04978],[-117.63738,34.0489],[-117.63738,34.04816],[-117.63737,34.0464],[-117.63737,34.04633],[-117.63723,34.04626],[-117.63736,34.04384],[-117.63735,34.04266],[-117.63296,34.04338],[-117.63297,34.0451],[-117.63297,34.04507],[-117.63283,34.04545],[-117.63283,34.04545],[-117.63291,34.04774],[-117.62865,34.04635],[-117.62864,34.0458],[-117.62864,34.04524],[-117.62864,34.04505],[-117.62863,34.04462],[-117.62233,34.03587],[-117.62402,34.03522],[-117.62681,34.03494],[-117.62681,34.03505],[-117.62668,34.03505],[-117.62668,34.03496],[-117.62725,34.03695],[-117.62402,34.03743],[-117.62402,34.03768],[-117.62402,34.03824],[-117.62225,34.03757],[-117.62131,34.03757],[-117.62098,34.03769],[-117.62067,34.03758],[-117.61865,34.03758],[-117.61854,34.03758],[-117.61902,34.03875],[-117.61859,34.0391],[-117.61976,34.04121],[-117.62001,34.04121],[-117.6205,34.04121],[-117.62132,34.04002],[-117.6226,34.04131],[-117.62415,34.0406],[-117.6255,34.04118],[-117.62401,34.04166],[-117.62498,34.0448],[-117.62564,34.0448],[-117.62643,34.04491],[-117.62722,34.0449],[-117.62718,34.04479],[-117.6281,34.0449],[-117.6285,34.04462],[-117.62863,34.04396],[-117.62848,34.04235],[-117.62848,34.04232],[-117.62848,34.04224],[-117.62772,34.04128],[-117.62846,34.04082],[-117.6286,34.0408],[-117.62845,34.0404],[-117.62845,34.03918],[-117.62845,34.03912],[-117.62858,34.03848],[-117.62858,34.03848],[-117.62857,34.03759],[-117.62857,34.03759],[-117.62843,34.03754],[-117.62856,34.03676],[-117.62855,34.03533],[-117.60263,34.04123],[-117.60351,34.04124],[-117.6047,34.04125],[-117.60536,34.04125],[-117.60646,34.04126],[-117.60659,34.0425],[-117.60867,34.04277],[-117.60881,34.04277],[-117.60868,34.04206],[-117.61104,34.04186],[-117.61103,34.0425],[-117.61103,34.04302],[-117.61102,34.04344],[-117.61043,34.04484],[-117.61017,34.04495],[-117.61,34.04483],[-117.60926,34.04494],[-117.60827,34.04492],[-117.60784,34.04492],[-117.60784,34.0448],[-117.60641,34.0444],[-117.60556,34.0444],[-117.60282,34.04422],[-117.60276,34.04411],[-117.60235,34.0441],[-117.60241,34.04421],[-117.60217,34.04536],[-117.60217,34.04575],[-117.60341,34.04538],[-117.6059,34.04689],[-117.60617,34.04678],[-117.60642,34.04764],[-117.60816,34.04778],[-117.60949,34.04791],[-117.61116,34.0467],[-117.61268,34.04485],[-117.61311,34.04426],[-117.61323,34.04298],[-117.61323,34.04274],[-117.61526,34.04302],[-117.61539,34.04309],[-117.61525,34.04465],[-117.61484,34.04486],[-117.61522,34.04796],[-117.61535,34.04848],[-117.61522,34.04848],[-117.61382,34.04848],[-117.612,34.0486],[-117.61085,34.04808],[-117.61085,34.04814],[-117.61085,34.04865],[-117.61068,34.0486],[-117.61061,34.0486],[-117.60928,34.05072],[-117.60494,34.04959],[-117.60405,34.04955],[-117.60194,34.03513],[-117.60194,34.03523],[-117.60262,34.03563],[-117.60319,34.03563],[-117.60196,34.03812],[-117.6066,34.037],[-117.60828,34.03768],[-117.60879,34.0376],[-117.60867,34.0389],[-117.6088,34.03902],[-117.60866,34.03902],[-117.60662,34.03952],[-117.60662,34.04056],[-117.60741,34.04115],[-117.60848,34.04115],[-117.60934,34.04128],[-117.61035,34.04135],[-117.61036,34.03779],[-117.61094,34.03702],[-117.61108,34.0366],[-117.61108,34.03688],[-117.6108,34.03767],[-117.61106,34.03897],[-117.61092,34.03978],[-117.61092,34.04048],[-117.61106,34.04055],[-117.61105,34.04108],[-117.61196,34.04136],[-117.61263,34.04125],[-117.61323,34.04238],[-117.61519,34.04135],[-117.61485,34.04013],[-117.615,34.04002],[-117.6168,34.04122],[-117.61709,34.04122],[-117.61774,34.04133],[-117.61813,34.03758],[-117.61505,34.03762],[-117.61543,34.03703],[-117.61544,34.03637],[-117.61544,34.03621],[-117.61544,34.03585],[-117.59115,34.06552],[-117.591,34.0656],[-117.59049,34.06572],[-117.59214,34.04828],[-117.59335,34.04749],[-117.59396,34.0476],[-117.59408,34.04749],[-117.59421,34.04749],[-117.59447,34.04748],[-117.59472,34.04749],[-117.5932,34.04666],[-117.59334,34.0466],[-117.5932,34.04604],[-117.5932,34.04512],[-117.59108,34.04327],[-117.59729,34.04534],[-117.59747,34.04493],[-117.60203,34.04605],[-117.60194,34.04426],[-117.60188,34.04426],[-117.60191,34.04426],[-117.60191,34.04414],[-117.60194,34.04414],[-117.60213,34.04267],[-117.60016,34.04187],[-117.60096,34.04115],[-117.60002,34.04101],[-117.59946,34.04112],[-117.59667,34.04141],[-117.59638,34.03852],[-117.59652,34.03852],[-117.59651,34.0384],[-117.59623,34.0375],[-117.59561,34.0375],[-117.59331,34.04097],[-117.59065,34.03748],[-117.59014,34.04071],[-117.59063,34.04099]],"roads":{"fw":{"I-10":[[[-117.6837,34.0873],[-117.6436,34.0874],[-117.6363,34.0852],[-117.6094,34.07],[-117.6043,34.0685],[-117.5958,34.0677],[-117.5306,34.0674]],[[-117.6836,34.0871],[-117.6432,34.0872],[-117.6368,34.0852],[-117.6103,34.0701],[-117.6046,34.0682],[-117.5994,34.0676],[-117.517,34.0675]],[[-117.6837,34.0873],[-117.6436,34.0874],[-117.6363,34.0852],[-117.6094,34.07],[-117.6043,34.0685],[-117.5958,34.0677],[-117.5306,34.0674]],[[-117.6836,34.0871],[-117.6432,34.0872],[-117.6368,34.0852],[-117.6103,34.0701],[-117.6046,34.0682],[-117.5994,34.0676],[-117.517,34.0675]]],"Euclid Ave":[[[-117.651,34.0944],[-117.6509,34.0874]],[[-117.6508,34.0634],[-117.6507,34.0303]],[[-117.6513,34.0944],[-117.6513,34.0874]],[[-117.6512,34.0634],[-117.6511,34.0303]],[[-117.6512,34.0634],[-117.6513,34.0874]],[[-117.6508,34.0634],[-117.6509,34.0874]]]},"art":{"4th St":[[[-117.6084,34.0776],[-117.6022,34.0776]],[[-117.6509,34.0779],[-117.6242,34.0776]],[[-117.6509,34.0779],[-117.6718,34.0779]],[[-117.6509,34.0779],[-117.5846,34.0775]],[[-117.6022,34.0776],[-117.5846,34.0775]],[[-117.6509,34.0779],[-117.6808,34.0778]],[[-117.6198,34.0776],[-117.611,34.0776]]],"Grove Ave":[[[-117.6285,34.0634],[-117.6285,34.0686],[-117.6297,34.0727],[-117.6296,34.0757],[-117.6286,34.0783],[-117.629,34.1184]],[[-117.6265,34.0425],[-117.6286,34.0425]],[[-117.6285,34.0634],[-117.6286,34.0425]],[[-117.6286,34.0425],[-117.6279,33.9832]]],"Francis St":[[[-117.6507,34.0411],[-117.6105,34.0413],[-117.5902,34.0407]],[[-117.6507,34.0411],[-117.6808,34.0409]]],"Cedar St":[[[-117.6036,34.0375],[-117.602,34.0375]],[[-117.5964,34.0374],[-117.5793,34.037]],[[-117.6507,34.0374],[-117.6308,34.0376]],[[-117.6507,34.0374],[-117.6546,34.0375]],[[-117.6241,34.0376],[-117.6197,34.0376]],[[-117.6189,34.0376],[-117.6042,34.0376]]],"Archibald Ave":[[[-117.5933,34.0524],[-117.5932,33.9774]],[[-117.5934,34.0636],[-117.5934,34.0625]],[[-117.5933,34.1542],[-117.5934,34.0775]],[[-117.5934,34.0775],[-117.5934,34.0636]]],"Campus Ave":[[[-117.6413,34.0634],[-117.6415,34.0506]],[[-117.6415,34.0506],[-117.6414,34.0194]],[[-117.6415,34.0945],[-117.6415,34.0871]],[[-117.6416,34.051],[-117.6415,34.0506]],[[-117.6413,34.0634],[-117.6415,34.0871]]],"Mission Blvd":[[[-117.6508,34.055],[-117.6286,34.0549],[-117.6239,34.0542],[-117.5585,34.0323]],[[-117.6508,34.055],[-117.6586,34.055]]],"Holt Blvd":[[[-117.611,34.0635],[-117.6066,34.064],[-117.6013,34.0659]],[[-117.6372,34.0634],[-117.611,34.0635]],[[-117.611,34.0635],[-117.6046,34.0647]],[[-117.6046,34.0647],[-117.6046,34.0647]],[[-117.6372,34.0638],[-117.6372,34.0634]],[[-117.6508,34.0634],[-117.6808,34.0633]],[[-117.6046,34.0647],[-117.601,34.0662]],[[-117.6508,34.0634],[-117.6372,34.0634]]],"Airport Dr":[[[-117.6012,34.0624],[-117.5811,34.0629]],[[-117.6283,34.0601],[-117.6258,34.0602],[-117.6231,34.0619],[-117.6012,34.0624]]],"Inland Empire Blvd":[[[-117.611,34.0735],[-117.6085,34.0729],[-117.6053,34.0704],[-117.5839,34.0702]]],"Guasti Rd":[[[-117.5934,34.065],[-117.5895,34.0661]],[[-117.6025,34.0632],[-117.5972,34.0632],[-117.5947,34.0647],[-117.5934,34.0649]]],"Vineyard Ave":[[[-117.611,34.0524],[-117.6109,34.0196]],[[-117.611,34.0635],[-117.6111,34.0921]],[[-117.611,34.0635],[-117.611,34.0602],[-117.6098,34.0593]]],"Jurupa St":[[[-117.6014,34.0483],[-117.5408,34.0483]]]},"loc":{"Bon View Ave":[[[-117.6372,34.0634],[-117.6366,34.0624],[-117.6366,34.055],[-117.6367,34.0521],[-117.6373,34.0504],[-117.6372,34.0309]]],"Belmont St":[[[-117.6508,34.0515],[-117.6341,34.0515],[-117.6246,34.0521]],[[-117.6508,34.0515],[-117.6341,34.0515],[-117.6246,34.0521]]],"Avion Dr":[[[-117.6147,34.0517],[-117.6109,34.0505]],[[-117.5989,34.0483],[-117.5991,34.0493],[-117.6032,34.0493],[-117.6098,34.0509]]],"Acacia St":[[[-117.6345,34.0489],[-117.633,34.0489]],[[-117.6286,34.0484],[-117.6096,34.0485]]],"Balboa Ave":[[[-117.6081,34.0469],[-117.6081,34.0481]],[[-117.6087,34.0433],[-117.6088,34.0412]]],"Baker Ave":[[[-117.6153,34.0514],[-117.6154,34.031]]],"Augusta Ct":[[[-117.6189,34.0376],[-117.6189,34.039],[-117.6183,34.039]]],"Avion St":[[[-117.6024,34.0493],[-117.6076,34.0502],[-117.6109,34.0512]],[[-117.5989,34.0483],[-117.5991,34.0493],[-117.6021,34.0493]]],"Avion Pl":[[[-117.6022,34.0481],[-117.6031,34.0481],[-117.6032,34.0493]]],"Acacia Ct":[[[-117.6302,34.048],[-117.6286,34.0479]]],"Carlos Ave":[[[-117.6065,34.0485],[-117.6065,34.0377]]],"California St":[[[-117.6286,34.0556],[-117.6281,34.0557]],[[-117.6508,34.0558],[-117.6606,34.0557]],[[-117.6298,34.0563],[-117.6299,34.0558],[-117.6508,34.0558]]],"Business Pkwy":[[[-117.5899,34.04],[-117.5902,34.0407],[-117.5889,34.0426]]],"Chief Privado":[[[-117.6285,34.0369],[-117.6268,34.0369]],[[-117.6285,34.0369],[-117.6268,34.0369]]],"Corona Ave":[[[-117.6134,34.0635],[-117.6134,34.0671]],[[-117.6134,34.0693],[-117.6136,34.0707]]],"Carrillo Privado":[[[-117.6035,34.0454],[-117.6021,34.0454]]],"Elm St":[[[-117.6153,34.0467],[-117.6109,34.0468]],[[-117.6286,34.0468],[-117.6272,34.0468]],[[-117.6065,34.0468],[-117.6081,34.0469]]],"Emporia St":[[[-117.6414,34.0624],[-117.6366,34.0624]],[[-117.6506,34.0617],[-117.6484,34.0618]],[[-117.6461,34.0621],[-117.6414,34.0622]]],"Grevillea Ct":[[[-117.6153,34.0401],[-117.614,34.0401]],[[-117.6372,34.0398],[-117.6363,34.0398]]],"Cucamonga Ave":[[[-117.633,34.0516],[-117.6329,34.0309]],[[-117.6319,34.057],[-117.632,34.0517]]],"Del Rio Pl":[[[-117.6037,34.079],[-117.6036,34.0776]]],"Elm Ct":[[[-117.605,34.0468],[-117.6081,34.0469]]],"De Soto Pl":[[[-117.6001,34.0411],[-117.6001,34.0419]]],"Del Rio Way":[[[-117.6039,34.0843],[-117.6032,34.0827],[-117.6031,34.0812]],[[-117.6039,34.0843],[-117.6032,34.0827],[-117.6031,34.0812]]],"Green Privado":[[[-117.6268,34.0369],[-117.6267,34.034]]],"Locust St":[[[-117.6065,34.0454],[-117.605,34.0453]],[[-117.6315,34.0435],[-117.6329,34.0435]],[[-117.6286,34.0448],[-117.6197,34.0449]],[[-117.6194,34.0449],[-117.6065,34.0448]]],"Lynx Pl":[[[-117.6087,34.0391],[-117.6087,34.0367]],[[-117.6087,34.0391],[-117.6087,34.0367]]],"Locust Ct":[[[-117.6021,34.0442],[-117.6012,34.0442]],[[-117.6021,34.0442],[-117.6032,34.0441]]],"Hellman Ave":[[[-117.6022,34.0826],[-117.6022,34.0776]],[[-117.6022,34.0481],[-117.6021,34.0493]],[[-117.6024,34.0524],[-117.6024,34.0493]],[[-117.6022,34.0849],[-117.6022,34.0826]],[[-117.6021,34.047],[-117.602,34.0339]]],"Lake Pl":[[[-117.6214,34.039],[-117.6214,34.0376]],[[-117.6214,34.0413],[-117.6214,34.0399]]],"Lindsay Privado":[[[-117.5959,34.0475],[-117.5933,34.0475]],[[-117.5982,34.0476],[-117.5933,34.0475]],[[-117.5982,34.0476],[-117.5959,34.0475]]],"Main St":[[[-117.6506,34.0611],[-117.6413,34.0612]],[[-117.6366,34.0612],[-117.6319,34.0612]]],"Monterey Ave":[[[-117.6442,34.05],[-117.645,34.05]],[[-117.6437,34.0601],[-117.6437,34.059]],[[-117.6442,34.05],[-117.6441,34.0411]],[[-117.6436,34.0558],[-117.6437,34.0509]]],"Pleasant Ave":[[[-117.6448,34.0634],[-117.6448,34.0621]],[[-117.6448,34.0634],[-117.6449,34.0652]]],"Parco Ave":[[[-117.6241,34.0449],[-117.6241,34.034]]],"Maple Privado":[[[-117.6065,34.0445],[-117.6049,34.0442]]],"Maitland St":[[[-117.6508,34.0536],[-117.6366,34.0536]],[[-117.6508,34.0536],[-117.6633,34.0536]]],"Mildred Ave":[[[-117.6246,34.0544],[-117.6246,34.0485]]],"Sacramento Ave":[[[-117.6132,34.0449],[-117.6132,34.0413]]],"Proforma Ave":[[[-117.5964,34.0374],[-117.5965,34.0387]],[[-117.5964,34.0338],[-117.5965,34.0387]],[[-117.5972,34.0454],[-117.5974,34.0443],[-117.5967,34.0411]],[[-117.5972,34.0454],[-117.5974,34.0443],[-117.5967,34.0411]]],"Spruce St":[[[-117.6035,34.0357],[-117.602,34.0357]],[[-117.6241,34.0358],[-117.6202,34.0358]],[[-117.6035,34.0357],[-117.602,34.0357]]],"State St":[[[-117.6413,34.0601],[-117.6283,34.0601]],[[-117.6509,34.0601],[-117.6413,34.06]]],"Sunkist St":[[[-117.6508,34.0579],[-117.6366,34.058]]],"Taylor Ave":[[[-117.639,34.0594],[-117.639,34.0537]]],"Sultana Ave":[[[-117.6461,34.0634],[-117.6462,34.087]],[[-117.6461,34.0634],[-117.6459,34.031]]],"Valencia Pl":[[[-117.6096,34.0485],[-117.6096,34.0476]],[[-117.6096,34.0485],[-117.6096,34.0476]]]}}}</script>
+<script>
+const D=JSON.parse(document.getElementById('d').textContent);
+const NS='http://www.w3.org/2000/svg';
+const el=(t,a,p)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e;};
+const KX=Math.cos(34.04*Math.PI/180),S=10000,X=lon=>(lon+117.72)*KX*S,Y=lat=>(34.10-lat)*S,MI=S/69;
+const svg=document.getElementById('map'),world=el('g',{},svg);
+const gR=el('g',{},world),gN=el('g',{},world),gZ=el('g',{},world),gL=el('g',{},world);
+const pathD=p=>p.map((q,i)=>(i?'L':'M')+X(q[0]).toFixed(1)+' '+Y(q[1]).toFixed(1)).join('');
+const rds=[];
+for(const [n,ps] of Object.entries(D.roads.loc))for(const p of ps)rds.push(el('path',{d:pathD(p),fill:'none',stroke:'#dedcd5','stroke-linecap':'round','data-w':1.2},gR));
+for(const [n,ps] of Object.entries(D.roads.art))for(const p of ps)rds.push(el('path',{d:pathD(p),fill:'none',stroke:'var(--road)','stroke-linecap':'round','data-w':2},gR));
+for(const [n,ps] of Object.entries(D.roads.fw))for(const p of ps)rds.push(el('path',{d:pathD(p),fill:'none',stroke:'var(--fwy)','stroke-linecap':'round','data-w':4},gR));
+// labels along longest path of each named road
+const lbls=[];
+function addLabels(obj,fs,every){for(const [n,ps] of Object.entries(obj)){for(const p of ps){let acc=0,next=every*0.5;for(let i=1;i<p.length;i++){const x0=X(p[i-1][0]),y0=Y(p[i-1][1]),x1=X(p[i][0]),y1=Y(p[i][1]);const L=Math.hypot(x1-x0,y1-y0);while(acc+L>=next){const t=(next-acc)/L,x=x0+t*(x1-x0),y=y0+t*(y1-y0);let a=Math.atan2(y1-y0,x1-x0)*180/Math.PI;if(a>90)a-=180;if(a<-90)a+=180;const tx=el('text',{x,y,transform:`rotate(${a.toFixed(1)} ${x.toFixed(1)} ${y.toFixed(1)})`,'text-anchor':'middle',dy:'-3',class:'roadlbl'},gL);tx.textContent=n;tx.__fs=fs;tx.__ev=every;lbls.push(tx);next+=every;}acc+=L;}}}}
+const TIERS={art:[0.55,1.5,4],loc:[0.45,1.2]};for(const e of TIERS.art)addLabels(D.roads.art,10.5,MI*e);for(const e of TIERS.loc)addLabels(D.roads.loc,9,MI*e);
+const rFor=sf=>2.8+Math.sqrt(Math.max(sf||20000,15000)/125000)*4.2;
+const dots=[];
+for(const p of D.other){const c=el('circle',{cx:X(p[0]),cy:Y(p[1]),fill:'#c9c7c0'},gN);c.__r=2.6;dots.push(c);}
+const tip=document.getElementById('tip'),card=document.querySelector('.mapcard');
+for(const p of D.zone){const c=el('circle',{cx:X(p.lon),cy:Y(p.lat),fill:'var(--zc)',stroke:'#fff'},gZ);c.__r=rFor(p.sf);c.style.cursor='pointer';dots.push(c);
+ const show=ev=>{tip.innerHTML=`<b>${p.addr}</b><br>${p.sf?p.sf.toLocaleString()+' SF building':'Industrial building'}${p.x?`<br><span style="color:#777">${p.x}</span>`:''}`;tip.style.display='block';const r=card.getBoundingClientRect();let x=ev.clientX-r.left+12,y=ev.clientY-r.top+12;if(x+270>r.width)x-=280;tip.style.left=x+'px';tip.style.top=y+'px';};
+ c.addEventListener('mousemove',show);c.addEventListener('click',e=>{e.stopPropagation();show(e);});c.addEventListener('mouseleave',()=>tip.style.display='none');}
+svg.addEventListener('click',()=>tip.style.display='none');
+let k=1,tx=0,ty=0,base=1;
+const W=()=>svg.clientWidth,H=()=>svg.clientHeight;
+const xs=D.zone.map(p=>X(p.lon)),ys=D.zone.map(p=>Y(p.lat));
+const B={x0:Math.min(...xs),x1:Math.max(...xs),y0:Math.min(...ys),y1:Math.max(...ys)};
+function fit(){const pad=46;k=Math.min((W()-2*pad)/Math.max(B.x1-B.x0,60),(H()-2*pad)/Math.max(B.y1-B.y0,60));tx=(W()-(B.x1-B.x0)*k)/2-B.x0*k;ty=(H()-(B.y1-B.y0)*k)/2-B.y0*k;base=k;apply();}
+function apply(){world.setAttribute('transform',`translate(${tx},${ty}) scale(${k})`);
+ for(const r of rds)r.setAttribute('stroke-width',(+r.dataset.w)/k);
+ const z=Math.min(1.4,Math.max(.7,Math.pow(k/base,.3)));
+ for(const c of dots){c.setAttribute('r',c.__r*z/k);c.setAttribute('stroke-width',1/k);}
+ const pick=(arr,minpx)=>{for(const e of arr){if(k*MI*e>=minpx)return MI*e;}return null;};
+ const ea=pick(TIERS.art,170),el2=pick(TIERS.loc,200);
+ for(const t of lbls){t.style.fontSize=(t.__fs/k)+'px';t.style.strokeWidth=(3/k)+'px';const want=t.__fs>10?ea:el2;t.style.display=(want!==null&&Math.abs(t.__ev-want)<1e-6)?'':'none';}}
+fit();addEventListener('resize',fit);
+function zoomAt(f,cx,cy){const nk=Math.max(base*.35,Math.min(base*12,k*f));f=nk/k;tx=cx-(cx-tx)*f;ty=cy-(cy-ty)*f;k=nk;apply();}
+svg.addEventListener('wheel',e=>{e.preventDefault();const r=svg.getBoundingClientRect();zoomAt(Math.exp(-e.deltaY*.0015),e.clientX-r.left,e.clientY-r.top);},{passive:false});
+const P=new Map();let drag=null;
+svg.addEventListener('pointerdown',e=>{P.set(e.pointerId,[e.clientX,e.clientY]);if(P.size===1)drag={x:e.clientX,y:e.clientY,tx,ty};});
+svg.addEventListener('pointermove',e=>{if(!P.has(e.pointerId))return;const prev=P.get(e.pointerId);P.set(e.pointerId,[e.clientX,e.clientY]);
+ if(P.size===2){const v=[...P.values()],o=[...P.keys()];const a=v[0],b=v[1];const pa=o[0]===e.pointerId?prev:a,pb=o[1]===e.pointerId?prev:b;const d0=Math.hypot(pa[0]-pb[0],pa[1]-pb[1]),d1=Math.hypot(a[0]-b[0],a[1]-b[1]);const r=svg.getBoundingClientRect();if(d0)zoomAt(d1/d0,(a[0]+b[0])/2-r.left,(a[1]+b[1])/2-r.top);drag=null;return;}
+ if(drag){tx=drag.tx+e.clientX-drag.x;ty=drag.ty+e.clientY-drag.y;apply();}});
+const up=e=>{P.delete(e.pointerId);if(!P.size)drag=null;};svg.addEventListener('pointerup',up);svg.addEventListener('pointercancel',up);svg.addEventListener('pointerleave',up);
+document.getElementById('zin').onclick=()=>zoomAt(1.5,W()/2,H()/2);document.getElementById('zout').onclick=()=>zoomAt(1/1.5,W()/2,H()/2);
+</script>
+</body>
+</html>
